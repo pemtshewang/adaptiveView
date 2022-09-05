@@ -14,6 +14,9 @@
         android:theme="@style/Theme.AdaptiveView"
         tools:targetApi="31">
         <activity
+            android:name=".Newsfeed"
+            android:exported="false" />
+        <activity
             android:name=".CardActivity"
             android:exported="false" />
         <activity
