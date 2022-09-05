@@ -60,21 +60,6 @@
 		android:inputType="textPostalAddress"
 		android:textAlignment="center" />
 
-	<EditText
-		android:id="@+id/country"
-		android:layout_width="217dp"
-		android:layout_height="56dp"
-		android:layout_alignParentTop="true"
-		android:layout_alignParentEnd="true"
-		android:layout_alignParentBottom="true"
-		android:layout_marginTop="407dp"
-		android:layout_marginEnd="82dp"
-		android:layout_marginBottom="196dp"
-		android:background="@drawable/border"
-		android:hint="Country"
-		android:inputType="textPostalAddress"
-		android:textAlignment="center" />
-
 	<ToggleButton
 		android:id="@+id/toggleButton2"
 		android:layout_width="67dp"
@@ -87,7 +72,9 @@
 		android:layout_marginTop="132dp"
 		android:layout_marginEnd="39dp"
 		android:layout_marginBottom="477dp"
-		android:text="ToggleButton" />
+		android:text="ToggleButton"
+		android:textOff="NO"
+		android:textOn="YES" />
 
 	<EditText
 		android:id="@+id/phoneNumber"
@@ -134,6 +121,23 @@
 		android:layout_marginEnd="97dp"
 		android:layout_marginBottom="487dp"
 		android:text="Married"
+		android:textAlignment="center"
+		android:textColor="@android:color/black"
+		android:textSize="20sp" />
+
+	<TextView
+		android:id="@+id/countryLabel"
+		android:layout_width="95dp"
+		android:layout_height="28dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginStart="86dp"
+		android:layout_marginTop="417dp"
+		android:layout_marginEnd="214dp"
+		android:layout_marginBottom="214dp"
+		android:text="Country"
 		android:textAlignment="center"
 		android:textColor="@android:color/black"
 		android:textSize="20sp" />
@@ -226,13 +230,13 @@
 		android:text="Doctorate" />
 
 	<com.google.android.material.floatingactionbutton.FloatingActionButton
-		android:id="@+id/floatingActionButton"
+		android:id="@+id/fab"
 		android:layout_width="80dp"
 		android:layout_height="65dp"
 		android:layout_alignParentEnd="true"
 		android:layout_alignParentBottom="true"
-		android:layout_marginEnd="10dp"
-		android:layout_marginBottom="48dp"
+		android:layout_marginEnd="45dp"
+		android:layout_marginBottom="7dp"
 		android:clickable="true"
 		app:srcCompat="?android:attr/fingerprintAuthDrawable" />
 
@@ -260,5 +264,17 @@
 			android:layout_weight="1"
 			android:text="Female" />
 	</RadioGroup>
+
+	<Spinner
+		android:id="@+id/country"
+		android:layout_width="156dp"
+		android:layout_height="48dp"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginTop="407dp"
+		android:layout_marginEnd="43dp"
+		android:layout_marginBottom="204dp"
+		android:background="@drawable/border" />
 
 </RelativeLayout>

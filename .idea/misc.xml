@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/adaptiveView/app/src/main/res/drawable/border.xml" value="0.332" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/adaptiveView/app/src/main/res/layout-land/activity_form.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/adaptiveView/app/src/main/res/layout/activity_card.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/adaptiveView/app/src/main/res/layout/activity_form.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/adaptiveView/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Users/galay/AndroidStudioProjects/adaptiveView/app/src/main/res/drawable/border.xml" value="0.2035" />
         <entry key="..\:/Users/galay/AndroidStudioProjects/adaptiveView/app/src/main/res/drawable/button.xml" value="0.1915" />
         <entry key="..\:/Users/galay/AndroidStudioProjects/adaptiveView/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1935" />
