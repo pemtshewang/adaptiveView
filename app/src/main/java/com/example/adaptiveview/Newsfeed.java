@@ -19,7 +19,8 @@ RecyclerView rView;
         img2 = findViewById(R.drawable.news2);
         img3 = findViewById(R.drawable.news3);
         img4 = findViewById(R.drawable.news4);
-        rView = findViewById(R.id.)
+        rView = findViewById(R.id.rView);
+        A
 
 
     }

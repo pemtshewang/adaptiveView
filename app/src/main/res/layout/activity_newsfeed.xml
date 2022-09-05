@@ -51,16 +51,21 @@
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rView"
         android:layout_width="390dp"
         android:layout_height="497dp"
+        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.839"
-        android:background="@color/white"
-        android:id="@+id/rec">
-    </androidx.recyclerview.widget.RecyclerView>
+        app:layout_constraintVertical_bias="0.839"></androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="174dp"
+        android:layout_height="82dp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="182dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
